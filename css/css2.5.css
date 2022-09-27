@@ -1,0 +1,27 @@
+/*Обнуление*/
+*{padding: 0;margin: 0;border: 0;}
+
+/*--------------------*/
+body{
+    margin: 0;   
+    color:white;
+    font-size: 11.5px;
+    line-height:14px;
+}
+.block1{
+    background: green;
+    margin: auto;
+    margin-top: 20px;
+    max-width: 355px;
+    position: static;
+      
+}
+.block2{
+    position: relative;
+    background: blue;
+    bottom: -20px;
+    margin: auto;
+    max-width: 365px;
+    padding: 40px;
+   
+}

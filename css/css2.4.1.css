@@ -1,0 +1,17 @@
+/*Обнуление*/
+*{padding: 0;margin: 0;border: 0;}
+
+/*--------------------*/
+body{
+    font-size: 11.5px;
+    margin: 10px 10px;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.text{
+   background: blue;
+   width: 450px;
+}
+

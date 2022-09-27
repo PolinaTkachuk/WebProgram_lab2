@@ -1,0 +1,59 @@
+/*Обнуление*/
+*{padding: 0;margin: 0;border: 0;}
+
+/*--------------------*/
+body{
+    font-size: 11.5px;
+    color:white;
+    margin: 10px;
+}
+.block1{
+    background: blueviolet;
+    width: 130px;
+    height: 80px;
+      
+}
+.block2{
+   background: darkred;
+   position: relative;
+   width: 130px;
+    height: 80px;
+}
+.block3{
+    background: peru;
+    position: relative;
+    left: 20px;
+    bottom: 20px;
+    width: 130px;
+    height: 80px;
+ }
+ .block4{
+    background: indianred;
+    position: relative;
+    width: 450px;
+    height: 300px;
+    margin: 0 0 150px 0 ;
+    z-index: 100;
+ }
+ .block5{
+    background: indigo;
+    position: absolute;
+    bottom: 20%;
+    left:55.5%;
+    width: 200px;
+    height: 120px;
+ }
+ .block6{
+    background: forestgreen;
+    position: fixed;
+  
+    margin: 40px 0 0 0;
+    width: 10%;
+    right: 0px;
+    bottom: 0px;
+    width: 70px;
+    height: 70px;
+    min-width: 50px;
+    min-height: 70px;
+   
+ }

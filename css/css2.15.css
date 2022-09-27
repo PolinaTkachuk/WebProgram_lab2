@@ -1,0 +1,27 @@
+/*Обнуление*/
+*{padding: 0;margin: 0;border: 0;}
+
+/*--------------------*/
+body{
+    font-size: 12px;
+ 
+}
+
+.repeatt{
+
+   flex-wrap: nowrap;
+}
+.block1
+{
+   display: inline-block;
+   background: aquamarine;
+   margin: 15px 10px;
+   width: 130px;
+   height: 70px;
+
+}
+.block2{
+   background: bisque;
+   margin: 0 0 10px 0;
+   
+}
